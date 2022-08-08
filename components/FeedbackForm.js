@@ -20,10 +20,16 @@ export default function FeedbackForm() {
         <label htmlFor="name">Name</label>
         <input id="name" className={styles['form-field']} type="text" name="name" />
 
-        <label htmlFor="email">Email</label>
-        <input id="email" className={styles['form-field']} type="email" name="email" required />
+        <label htmlFor="name">NIP</label>
+        <input id="name" className={styles['form-field']} type="text" name="nip" />
 
-        <label htmlFor="feedback">What is your feedback?</label>
+        <label htmlFor="name">Jabatan</label>
+        <input id="name" className={styles['form-field']} type="text" name="jabatan" />
+
+        <label htmlFor="email">Bagian</label>
+        <input id="email" className={styles['form-field']} type="text" name="bagian" />
+
+        <label htmlFor="feedback">Masukan akses menu apa saja yang dibutuhkan ?</label>
         <textarea id="feedback" className={styles['form-field']} wrap="soft" name="feedback" required></textarea>
         <button className={styles.button} type="submit">Submit</button>
       </form>

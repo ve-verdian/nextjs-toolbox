@@ -25,6 +25,6 @@
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.9.1",
-    "netlify-plugin-cypress": "2.2.0"
+    "netlify-plugin-cypress": "^1.2.0"
   }
 }
